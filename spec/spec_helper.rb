@@ -1,7 +1,7 @@
 ENV["SINATRA_ENV"] = "test"
 ENV["RACK_ENV"] = "test"
 
-require_relative '../config/environment'
+require_relative '../config/environment.rb'
 
 require 'rack/test'
 
